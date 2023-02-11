@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75A231552997F8610043E6A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A231542997F8610043E6A6 /* AppDelegate.swift */; };
+		75A231592997F8610043E6A6 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 75A231572997F8610043E6A6 /* Main.html */; };
+		75A2315B2997F8610043E6A6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A2315A2997F8610043E6A6 /* Icon.png */; };
+		75A2315D2997F8610043E6A6 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 75A2315C2997F8610043E6A6 /* Style.css */; };
+		75A2315F2997F8610043E6A6 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 75A2315E2997F8610043E6A6 /* Script.js */; };
+		75A231612997F8610043E6A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A231602997F8610043E6A6 /* ViewController.swift */; };
+		75A231642997F8610043E6A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A231622997F8610043E6A6 /* Main.storyboard */; };
+		75A231662997F8620043E6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A231652997F8620043E6A6 /* Assets.xcassets */; };
+		75A2316E2997F8620043E6A6 /* driverextpage Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 75A2316D2997F8620043E6A6 /* driverextpage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		75A231732997F8620043E6A6 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A231722997F8620043E6A6 /* SafariWebExtensionHandler.swift */; };
+		75A231762997F8620043E6A6 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 75A231752997F8620043E6A6 /* _locales */; };
+		75A231782997F8620043E6A6 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 75A231772997F8620043E6A6 /* images */; };
+		75A2317A2997F8620043E6A6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 75A231792997F8620043E6A6 /* manifest.json */; };
+		75A2317C2997F8620043E6A6 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 75A2317B2997F8620043E6A6 /* background.js */; };
+		75A2317E2997F8620043E6A6 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 75A2317D2997F8620043E6A6 /* content.js */; };
+		75A231802997F8620043E6A6 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 75A2317F2997F8620043E6A6 /* popup.html */; };
+		75A231822997F8620043E6A6 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 75A231812997F8620043E6A6 /* popup.css */; };
+		75A231842997F8620043E6A6 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 75A231832997F8620043E6A6 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75A2316F2997F8620043E6A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A231492997F8610043E6A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A2316C2997F8620043E6A6;
+			remoteInfo = "driverextpage Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75A2318C2997F8620043E6A6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				75A2316E2997F8620043E6A6 /* driverextpage Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75A231512997F8610043E6A6 /* driverextpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = driverextpage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A231542997F8610043E6A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75A231582997F8610043E6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		75A2315A2997F8610043E6A6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		75A2315C2997F8610043E6A6 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		75A2315E2997F8610043E6A6 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		75A231602997F8610043E6A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75A231632997F8610043E6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75A231652997F8620043E6A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75A231672997F8620043E6A6 /* driverextpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = driverextpage.entitlements; sourceTree = "<group>"; };
+		75A231682997F8620043E6A6 /* driverextpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = driverextpage.entitlements; sourceTree = "<group>"; };
+		75A2316D2997F8620043E6A6 /* driverextpage Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "driverextpage Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A231722997F8620043E6A6 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		75A231752997F8620043E6A6 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		75A231772997F8620043E6A6 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		75A231792997F8620043E6A6 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		75A2317B2997F8620043E6A6 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		75A2317D2997F8620043E6A6 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		75A2317F2997F8620043E6A6 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		75A231812997F8620043E6A6 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		75A231832997F8620043E6A6 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		75A231852997F8620043E6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A231862997F8620043E6A6 /* driverextpage_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = driverextpage_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75A2314E2997F8610043E6A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A2316A2997F8620043E6A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75A231482997F8610043E6A6 = {
+			isa = PBXGroup;
+			children = (
+				75A231532997F8610043E6A6 /* driverextpage */,
+				75A231712997F8620043E6A6 /* driverextpage Extension */,
+				75A231522997F8610043E6A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75A231522997F8610043E6A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75A231512997F8610043E6A6 /* driverextpage.app */,
+				75A2316D2997F8620043E6A6 /* driverextpage Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75A231532997F8610043E6A6 /* driverextpage */ = {
+			isa = PBXGroup;
+			children = (
+				75A231542997F8610043E6A6 /* AppDelegate.swift */,
+				75A231602997F8610043E6A6 /* ViewController.swift */,
+				75A231622997F8610043E6A6 /* Main.storyboard */,
+				75A231652997F8620043E6A6 /* Assets.xcassets */,
+				75A231672997F8620043E6A6 /* driverextpage.entitlements */,
+				75A231682997F8620043E6A6 /* driverextpage.entitlements */,
+				75A231562997F8610043E6A6 /* Resources */,
+			);
+			path = driverextpage;
+			sourceTree = "<group>";
+		};
+		75A231562997F8610043E6A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75A231572997F8610043E6A6 /* Main.html */,
+				75A2315A2997F8610043E6A6 /* Icon.png */,
+				75A2315C2997F8610043E6A6 /* Style.css */,
+				75A2315E2997F8610043E6A6 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		75A231712997F8620043E6A6 /* driverextpage Extension */ = {
+			isa = PBXGroup;
+			children = (
+				75A231722997F8620043E6A6 /* SafariWebExtensionHandler.swift */,
+				75A231852997F8620043E6A6 /* Info.plist */,
+				75A231862997F8620043E6A6 /* driverextpage_Extension.entitlements */,
+				75A231742997F8620043E6A6 /* Resources */,
+			);
+			path = "driverextpage Extension";
+			sourceTree = "<group>";
+		};
+		75A231742997F8620043E6A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75A231752997F8620043E6A6 /* _locales */,
+				75A231772997F8620043E6A6 /* images */,
+				75A231792997F8620043E6A6 /* manifest.json */,
+				75A2317B2997F8620043E6A6 /* background.js */,
+				75A2317D2997F8620043E6A6 /* content.js */,
+				75A2317F2997F8620043E6A6 /* popup.html */,
+				75A231812997F8620043E6A6 /* popup.css */,
+				75A231832997F8620043E6A6 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75A231502997F8610043E6A6 /* driverextpage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A2318D2997F8620043E6A6 /* Build configuration list for PBXNativeTarget "driverextpage" */;
+			buildPhases = (
+				75A2314D2997F8610043E6A6 /* Sources */,
+				75A2314E2997F8610043E6A6 /* Frameworks */,
+				75A2314F2997F8610043E6A6 /* Resources */,
+				75A2318C2997F8620043E6A6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A231702997F8620043E6A6 /* PBXTargetDependency */,
+			);
+			name = driverextpage;
+			productName = driverextpage;
+			productReference = 75A231512997F8610043E6A6 /* driverextpage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75A2316C2997F8620043E6A6 /* driverextpage Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A231892997F8620043E6A6 /* Build configuration list for PBXNativeTarget "driverextpage Extension" */;
+			buildPhases = (
+				75A231692997F8620043E6A6 /* Sources */,
+				75A2316A2997F8620043E6A6 /* Frameworks */,
+				75A2316B2997F8620043E6A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "driverextpage Extension";
+			productName = "driverextpage Extension";
+			productReference = 75A2316D2997F8620043E6A6 /* driverextpage Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75A231492997F8610043E6A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					75A231502997F8610043E6A6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					75A2316C2997F8620043E6A6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 75A2314C2997F8610043E6A6 /* Build configuration list for PBXProject "driverextpage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75A231482997F8610043E6A6;
+			productRefGroup = 75A231522997F8610043E6A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75A231502997F8610043E6A6 /* driverextpage */,
+				75A2316C2997F8620043E6A6 /* driverextpage Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75A2314F2997F8610043E6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A2315B2997F8610043E6A6 /* Icon.png in Resources */,
+				75A231642997F8610043E6A6 /* Main.storyboard in Resources */,
+				75A2315F2997F8610043E6A6 /* Script.js in Resources */,
+				75A231592997F8610043E6A6 /* Main.html in Resources */,
+				75A231662997F8620043E6A6 /* Assets.xcassets in Resources */,
+				75A2315D2997F8610043E6A6 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A2316B2997F8620043E6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A2317C2997F8620043E6A6 /* background.js in Resources */,
+				75A231822997F8620043E6A6 /* popup.css in Resources */,
+				75A231802997F8620043E6A6 /* popup.html in Resources */,
+				75A231782997F8620043E6A6 /* images in Resources */,
+				75A2317A2997F8620043E6A6 /* manifest.json in Resources */,
+				75A231762997F8620043E6A6 /* _locales in Resources */,
+				75A2317E2997F8620043E6A6 /* content.js in Resources */,
+				75A231842997F8620043E6A6 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75A2314D2997F8610043E6A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A231612997F8610043E6A6 /* ViewController.swift in Sources */,
+				75A231552997F8610043E6A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A231692997F8620043E6A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A231732997F8620043E6A6 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75A231702997F8620043E6A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A2316C2997F8620043E6A6 /* driverextpage Extension */;
+			targetProxy = 75A2316F2997F8620043E6A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75A231572997F8610043E6A6 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A231582997F8610043E6A6 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		75A231622997F8610043E6A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A231632997F8610043E6A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75A231872997F8620043E6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75A231882997F8620043E6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		75A2318A2997F8620043E6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "driverextpage Extension/driverextpage_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H528K2VA5W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "driverextpage Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "driverextpage Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oskarpersson.driverextpage.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		75A2318B2997F8620043E6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "driverextpage Extension/driverextpage_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H528K2VA5W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "driverextpage Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "driverextpage Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oskarpersson.driverextpage.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		75A2318E2997F8620043E6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = driverextpage/driverextpage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H528K2VA5W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = driverextpage;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oskarpersson.driverextpage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		75A2318F2997F8620043E6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = driverextpage/driverextpage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H528K2VA5W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = driverextpage;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oskarpersson.driverextpage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75A2314C2997F8610043E6A6 /* Build configuration list for PBXProject "driverextpage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A231872997F8620043E6A6 /* Debug */,
+				75A231882997F8620043E6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A231892997F8620043E6A6 /* Build configuration list for PBXNativeTarget "driverextpage Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A2318A2997F8620043E6A6 /* Debug */,
+				75A2318B2997F8620043E6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A2318D2997F8620043E6A6 /* Build configuration list for PBXNativeTarget "driverextpage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A2318E2997F8620043E6A6 /* Debug */,
+				75A2318F2997F8620043E6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75A231492997F8610043E6A6 /* Project object */;
+}
